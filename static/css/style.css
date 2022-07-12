@@ -902,3 +902,16 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/* Filling Image in a div */
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
